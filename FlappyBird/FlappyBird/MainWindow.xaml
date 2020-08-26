@@ -8,8 +8,11 @@
         Title="MainWindow" Height="500" Width="500">
     <Grid>
         <Image HorizontalAlignment="Left" Height="500" Margin="0,0,0,0" VerticalAlignment="Top" Width="500" Source="background.jpg"/>
-        <Rectangle x:Name="pipe1" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="395,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" RenderTransformOrigin="1.192,3.579"/>
-        <Rectangle x:Name="pipe2" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="395,300,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="202,175,0,0" VerticalAlignment="Top" Width="136" Height="80"/>
+        <Rectangle x:Name="pipe1" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="495,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="85"/>
+        <Rectangle x:Name="pipe2" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="495,300,0,0" Stroke="Black" VerticalAlignment="Top" Width="85"/>
+        <Rectangle x:Name="pipe3" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="770,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="85"/>
+        <Rectangle x:Name="pipe4" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="770,300,0,0" Stroke="Black" VerticalAlignment="Top" Width="85" RenderTransformOrigin="1.453,0.62"/>
+        <Button x:Name="jump" Content="Button" HorizontalAlignment="Left" Margin="10,382,0,0" VerticalAlignment="Top" Width="136" Height="80" Background="#FF9B4040" Click="Jump"/>
+        <Image x:Name="bird" HorizontalAlignment="Center" Height="105" Margin="0,0,0,0" VerticalAlignment="Center" Width="108" Source="bird.png" RenderTransformOrigin="2.625,0.731"/>
     </Grid>
 </Window>
