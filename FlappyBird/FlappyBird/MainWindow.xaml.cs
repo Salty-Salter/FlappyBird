@@ -38,9 +38,11 @@ namespace FlappyBird
         private void gameTimer_Tick(object sender, EventArgs e)
         {
             Thickness marg = pipe1.Margin;
+            Thickness marg1 = pipe2.Margin;
             if (marg.Left != -100)
             {
                 pipe1.Margin = new Thickness(marg.Left-1, 0, 0, 0);
+                pipe2.Margin = new Thickness(marg.Left - 1, marg1.Top,0,0);
             }
             else
             {
@@ -50,8 +52,16 @@ namespace FlappyBird
                 var random = new Random();
                 int num = random.Next(450);
                 pipe1.Height = num;
-                pipe2.Margin = new Thickness(350, 0 + num + 100, 0, 0);
-                pipe2.Height = 500 - num - 100;
+                pipe2.Margin = new Thickness(marg.Left, 0 + num + 100, 0, 0);
+
+                if (500-num-100 > 0)
+                { 
+                    pipe2.Height = 500 - num - 100; 
+                }
+                else
+                {
+                    pipe2.Height = 0.01;
+                }
 
             }
         }
