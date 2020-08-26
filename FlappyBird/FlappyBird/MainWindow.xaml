@@ -13,6 +13,9 @@
         <Rectangle x:Name="pipe3" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="770,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="85"/>
         <Rectangle x:Name="pipe4" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="770,300,0,0" Stroke="Black" VerticalAlignment="Top" Width="85" RenderTransformOrigin="1.453,0.62"/>
         <Button x:Name="jump" Content="Button" HorizontalAlignment="Left" Margin="10,382,0,0" VerticalAlignment="Top" Width="136" Height="80" Background="#FF9B4040" Click="Jump"/>
-        <Image x:Name="bird" HorizontalAlignment="Center" Height="105" Margin="0,0,0,0" VerticalAlignment="Center" Width="108" Source="bird.png" RenderTransformOrigin="2.625,0.731"/>
+        <Image x:Name="bird" HorizontalAlignment="Left" Height="100" Margin="205,197,0,0" VerticalAlignment="Top" Width="100" Source="bird.png" RenderTransformOrigin="2.625,0.731"/>
+        <Label x:Name="Display" Content="Label" HorizontalAlignment="Left" Margin="40,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="life" Content="Label" HorizontalAlignment="Left" Margin="198,148,0,0" VerticalAlignment="Top" Height="38" Width="127"/>
+        <Rectangle x:Name="sensor" HorizontalAlignment="Left" Height="30" Margin="235,235,0,0" VerticalAlignment="Top" Width="30" Stroke="Black" Fill="Black"/>
     </Grid>
 </Window>
