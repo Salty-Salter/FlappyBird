@@ -18,6 +18,7 @@ using System.IO;
 using System.Windows.Threading;
 using System.Globalization;
 using System.Windows.Forms;
+using Application = System.Windows.Forms.Application;
 
 namespace FlappyBird
 {
@@ -112,15 +113,11 @@ namespace FlappyBird
 
                 if (150 <= marg.Left && marg.Left <= 250 && (icon.Top <= pipe1.Height || icon.Top + 30 >= pipe1.Height + 125))
                 {
-                    life.Content = "dead";
+                    PlayerDead();
                 }
                 else if (150 <= marg3.Left && marg3.Left <= 250 && (icon.Top <= pipe3.Height || icon.Top + 30 >= pipe3.Height + 125))
                 {
-                    life.Content = "dead";
-                }
-                else
-                {
-                    life.Content = "alive";
+                    PlayerDead();
                 }
 
                 if (num <= 0) { gravity = 3; }
@@ -132,6 +129,26 @@ namespace FlappyBird
         {
             gravity = -10;
             num = 10;
+        }
+
+        private void PlayerDead()
+        {
+            endscreen.Opacity = 100;
+            end.Opacity = 100;
+            jump.IsEnabled = false;
+            jump.Opacity = 0;
+            text.Opacity = 100;
+            finalscore.Opacity = 100;
+            finalscore.Content = score;
+            reset.IsEnabled = true;
+            reset.Opacity = 100;
+            alive = false;
+        }
+
+        private void Restart(object sender, EventArgs e)
+        {
+            Application.Restart();
+            Environment.Exit(0);
         }
     }
 }

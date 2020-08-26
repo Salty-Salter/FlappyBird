@@ -12,10 +12,15 @@
         <Rectangle x:Name="pipe2" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="495,300,0,0" Stroke="Black" VerticalAlignment="Top" Width="85"/>
         <Rectangle x:Name="pipe3" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="770,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="85"/>
         <Rectangle x:Name="pipe4" Fill="#FF268324" HorizontalAlignment="Left" Height="175" Margin="770,300,0,0" Stroke="Black" VerticalAlignment="Top" Width="85" RenderTransformOrigin="1.453,0.62"/>
-        <Button x:Name="jump" Content="Button" HorizontalAlignment="Left" Margin="10,382,0,0" VerticalAlignment="Top" Width="136" Height="80" Background="#FF9B4040" Click="Jump"/>
         <Image x:Name="bird" HorizontalAlignment="Left" Height="100" Margin="205,197,0,0" VerticalAlignment="Top" Width="100" Source="bird.png" RenderTransformOrigin="2.625,0.731"/>
-        <Label x:Name="Display" Content="Label" HorizontalAlignment="Left" Margin="40,26,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="life" Content="Label" HorizontalAlignment="Left" Margin="198,148,0,0" VerticalAlignment="Top" Height="38" Width="127"/>
-        <Rectangle x:Name="sensor" HorizontalAlignment="Left" Height="30" Margin="235,235,0,0" VerticalAlignment="Top" Width="30" Stroke="Black" Fill="Black"/>
+        <Label x:Name="Display" Content="0" HorizontalAlignment="Left" Margin="30,25,0,0" VerticalAlignment="Top" Height="70" Width="43" RenderTransformOrigin="-0.029,1.062" FontWeight="Bold" FontSize="48"/>
+        <Label Content="Score" HorizontalAlignment="Left" Margin="5,-5,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="36" Height="50"/>
+        <Rectangle x:Name="sensor" HorizontalAlignment="Left" Height="30" Margin="235,235,0,0" VerticalAlignment="Top" Width="30"/>
+        <Rectangle x:Name="endscreen" HorizontalAlignment="Left" Height="500" Margin="0,0,0,0" VerticalAlignment="Top" Width="500" Fill="White" Stroke="White" IsEnabled="False" Opacity="0"/>
+        <Label x:Name="end" Content="Lol, You DIED!" HorizontalAlignment="Center" Margin="86,199,79,199.5" VerticalAlignment="Center" Width="330" FontSize="48" FontWeight="Bold" Background="{x:Null}" Foreground="Red" Opacity="0" IsEnabled="False"/>
+        <Label x:Name="text" Content="Final Score" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Center" RenderTransformOrigin="-6.953,9.125" Width="198" Height="50" FontWeight="Bold" FontSize="36" Opacity="0"/>
+        <Label x:Name="finalscore" Content="0" HorizontalAlignment="Center" Margin="0,335,0,0" VerticalAlignment="Center" RenderTransformOrigin="-2.895,1.856" FontWeight="Bold" FontSize="48" Opacity="0"/>
+        <Button x:Name="reset" Content="Restart" BorderThickness="4" HorizontalAlignment="Center" Margin="0,-250,0,0" VerticalAlignment="Center" Width="250" Click="Restart" Height="100" FontWeight="Bold" FontSize="36" BorderBrush="Black" Background="#FF51FF00" Opacity="0" IsEnabled="False"/>
+        <Button x:Name="jump" Content="JUMP" BorderThickness="4" HorizontalAlignment="Left" Margin="10,382,0,0" VerticalAlignment="Top" Width="136" Height="80" Background="#FF97FF00" Click="Jump" FontWeight="Bold" FontSize="36" BorderBrush="Black"/>
     </Grid>
 </Window>
