@@ -205,5 +205,12 @@ The things I did well though were good and efficient research into new things I 
 
 
 ## __Planning__
+> _UI Design_
+The UI of my game is going to be directly based on the original flappy bird game. This means a bird icon the character controls, moving 'pipes' along the screen and the classic flappy bird background. In one of the top corners will be the players current score and in the bottom left corner will be a large 'JUMP' button which the player controls the bird with. If the player dies there will be an end screen which the player can view their final score, it will also contain a restart button for the user to reset the program easily.
+
+> _Feasability_
+The game flappy bird is really quite simple and easily coded. I have made this more challenging by using a WPF framework, one which is generally not used for games by most of the coding community. This presents the challenge of less resources available online from other coders and more trialing and working out logic on my half. I still think the game will be quite feasible with this framework and with these new challenges, even if I have wasted most of my time. 
+
+>_Scope_ 
 
 
