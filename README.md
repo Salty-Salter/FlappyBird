@@ -212,5 +212,6 @@ The UI of my game is going to be directly based on the original flappy bird game
 The game flappy bird is really quite simple and easily coded. I have made this more challenging by using a WPF framework, one which is generally not used for games by most of the coding community. This presents the challenge of less resources available online from other coders and more trialing and working out logic on my half. I still think the game will be quite feasible with this framework and with these new challenges, even if I have wasted most of my time. 
 
 >_Scope_ 
+![GitHub Logo](/Images/Gantt.jng)
 
 
