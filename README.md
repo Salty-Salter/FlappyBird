@@ -199,19 +199,19 @@ private void Restart(object sender, EventArgs e)
 
 
 > _Evaluation_
-The main problem with my Something Awesome was my horrible time management. Due to my lack of time management I did not discover the impossibility of some of my ideas until the last few days of my project, ideas such as a Snapchat streaks sender had to quickly be discarded. In fact I did not come up with my idea until 3:30 the day of which the assessment was due. Apart from time management skills I could've used a language and application like Java to code my game as I had no prior experience coding games or animations within WPF and it does not seem to be the most efficient way to code a game. 
+*The main problem with my Something Awesome was my horrible time management. Due to my lack of time management I did not discover the impossibility of some of my ideas until the last few days of my project, ideas such as a Snapchat streaks sender had to quickly be discarded. In fact I did not come up with my idea until 3:30 the day of which the assessment was due. Apart from time management skills I could've used a language and application like Java to code my game as I had no prior experience coding games or animations within WPF and it does not seem to be the most efficient way to code a game. 
 
-The things I did well though were good and efficient research into new things I needed to know and manipulating the things I did know effectively to suit my new needs such as using a timer from my Advanced Software Class to run the recurring game loop. The game turned out well but was rushed and I probably could've taken on a more complex project or added small features such as actual pipes instead of rectangles, the bird rotating or a moving background to give a more authentic game experience.
+*The things I did well though were good and efficient research into new things I needed to know and manipulating the things I did know effectively to suit my new needs such as using a timer from my Advanced Software Class to run the recurring game loop. The game turned out well but was rushed and I probably could've taken on a more complex project or added small features such as actual pipes instead of rectangles, the bird rotating or a moving background to give a more authentic game experience.
 
 
 ## __Planning__
 > _UI Design_
-The UI of my game is going to be directly based on the original flappy bird game. This means a bird icon the character controls, moving 'pipes' along the screen and the classic flappy bird background. In one of the top corners will be the players current score and in the bottom left corner will be a large 'JUMP' button which the player controls the bird with. If the player dies there will be an end screen which the player can view their final score, it will also contain a restart button for the user to reset the program easily.
+*The UI of my game is going to be directly based on the original flappy bird game. This means a bird icon the character controls, moving 'pipes' along the screen and the classic flappy bird background. In one of the top corners will be the players current score and in the bottom left corner will be a large 'JUMP' button which the player controls the bird with. If the player dies there will be an end screen which the player can view their final score, it will also contain a restart button for the user to reset the program easily.
 
 > _Feasability_
-The game flappy bird is really quite simple and easily coded. I have made this more challenging by using a WPF framework, one which is generally not used for games by most of the coding community. This presents the challenge of less resources available online from other coders and more trialing and working out logic on my half. I still think the game will be quite feasible with this framework and with these new challenges, even if I have wasted most of my time. 
+*The game flappy bird is really quite simple and easily coded. I have made this more challenging by using a WPF framework, one which is generally not used for games by most of the coding community. This presents the challenge of less resources available online from other coders and more trialing and working out logic on my half. I still think the game will be quite feasible with this framework and with these new challenges, even if I have wasted most of my time. 
 
->_Scope_ 
-![GitHub Logo](/Images/Gantt.jng)
+>_Scope_
+*![GitHub Logo](/Images/Gantt.jng)
 
 
