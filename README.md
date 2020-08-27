@@ -216,7 +216,7 @@ The game flappy bird is really quite simple and easily coded. I have made this m
 
 >_Scope_
 
-![GitHub Logo](Images/Gantt.jng)
+![Gantt](Images/Gantt.jpg)
 
 
 
